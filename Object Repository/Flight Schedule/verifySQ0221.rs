@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>verifySQ0221</name>
+   <tag></tag>
+   <elementGuidId>87fb5c28-5ad0-4612-9450-72d689d838fa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;scflightschedule&quot;]/div/span/div[2]/div/div[2]/div/table/tbody/tr[3]/td[1]/table/tbody/tr[2]/td[2]/div/span[2]/span[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

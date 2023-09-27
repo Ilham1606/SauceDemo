@@ -1,0 +1,56 @@
+{
+  "keywordFileContentHash": "3AD3ECE915FD3C2F6A3641911053B52A",
+  "keywordClasses": [
+    {
+      "name": "sauceDemoKeywords.sdKeywords",
+      "keywordMethods": [
+        {
+          "name": "openBrowser",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "closeBrowser",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "login",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "filterContainer",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "addToCart",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "inCart",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "checkout",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "checkoutOverview",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "orderConfirmation",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

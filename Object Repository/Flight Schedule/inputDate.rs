@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>inputDate</name>
+   <tag></tag>
+   <elementGuidId>8b76ba39-4d38-48ad-8578-8729056e8f67</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;scflightschedule&quot;]/div/span/div[1]/div/div/div[1]/div[2]/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[4]/div[6]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

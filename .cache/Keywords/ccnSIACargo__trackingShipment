@@ -1,0 +1,21 @@
+{
+  "keywordFileContentHash": "E08075F351BF1E2B232E33A45278F26D",
+  "keywordClasses": [
+    {
+      "name": "ccnSIACargo.trackingShipment",
+      "keywordMethods": [
+        {
+          "name": "flightSchedule",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "resetSchedule",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

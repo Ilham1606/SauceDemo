@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_You can search for a maximum of 10 AWB numbers</name>
+   <tag></tag>
+   <elementGuidId>3a9c4b3e-7f6e-4bc1-907c-9c74ca6ab706</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p.sqpp-tracking-quicksearch-instruction</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//tracking-quicksearch[@id='scquicksearch']/div/div/div/div/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>0957f752-6c2a-4768-b2fa-0543b67893d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sqpp-tracking-quicksearch-instruction</value>
+      <webElementGuid>a2ce0715-0951-422f-aa65-2f4e5a9d29da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> You can search for a maximum of 10 AWB numbers. </value>
+      <webElementGuid>d2b98d8c-1f17-4ace-9e85-4dbb6b7e0a43</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;scquicksearch&quot;)/div[@class=&quot;sqpp-quicksearch-wc-container sqpp-master-container&quot;]/div[1]/div[@class=&quot;sqpp-tracking-quicksearch-searchbar-container&quot;]/div[@class=&quot;sqpp-tracking-quicksearch-container&quot;]/p[@class=&quot;sqpp-tracking-quicksearch-instruction&quot;]</value>
+      <webElementGuid>d8a3806f-c0be-4c2c-a3a5-b11b3856c5d6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tracking-quicksearch[@id='scquicksearch']/div/div/div/div/p</value>
+      <webElementGuid>30294268-0a7a-45c2-bdbd-5eb820db85b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tracking'])[2]/following::p[1]</value>
+      <webElementGuid>9f6e1cb4-0935-48bf-9cf4-854e5ac31c29</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='e-Services'])[1]/following::p[1]</value>
+      <webElementGuid>efe37865-74c6-49f4-9176-a9eb3f2f6fdb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TRACK'])[1]/preceding::p[1]</value>
+      <webElementGuid>6717d429-562f-4d7a-807f-e2b09f4c72e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OUR PRODUCTS'])[1]/preceding::p[1]</value>
+      <webElementGuid>702508a2-3fd0-40ff-ad73-c45ac64fa12c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='You can search for a maximum of 10 AWB numbers.']/parent::*</value>
+      <webElementGuid>2119520b-9802-4452-b1bb-4e19dfe38b9a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tracking-quicksearch/div/div/div/div/p</value>
+      <webElementGuid>e8a0a5b9-b45e-46a4-8538-00647694aded</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = ' You can search for a maximum of 10 AWB numbers. ' or . = ' You can search for a maximum of 10 AWB numbers. ')]</value>
+      <webElementGuid>666d220d-1d82-41e9-adb7-d312671598c9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
