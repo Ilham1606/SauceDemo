@@ -31,12 +31,12 @@ public class trackingShipment {
 	}
 
 	@Keyword
-	def flightSchedule() {
+	def flightSchedule(String origin, String destination) {
 		WebUI.mouseOver(findTestObject('Object Repository/Track Shipment/elementE-Services'))
 		WebUI.click(findTestObject('Object Repository/Flight Schedule/elementFightSchedule'))
-		WebUI.setText(findTestObject('Object Repository/Flight Schedule/inputOrigin'),'SIN')
+		WebUI.setText(findTestObject('Object Repository/Flight Schedule/inputOrigin'), origin)
 		WebUI.click(findTestObject('Object Repository/Flight Schedule/span_Singapore, SingaporeChangi Intl'))
-		WebUI.setText(findTestObject('Object Repository/Flight Schedule/inputDestination'),'SYD')
+		WebUI.setText(findTestObject('Object Repository/Flight Schedule/inputDestination'), destination)
 		WebUI.click(findTestObject('Object Repository/Flight Schedule/div_Sydney, AustraliaKingsford Smith SYD'))
 		WebUI.click(findTestObject('Object Repository/Flight Schedule/inputFightDate'))
 		WebUI.click(findTestObject('Object Repository/Flight Schedule/inputDate'))
@@ -47,10 +47,10 @@ public class trackingShipment {
 	}
 
 	@Keyword
-	def resetSchedule() {
+	def resetSchedule(String origin, String destination) {
 		WebUI.click(findTestObject('Object Repository/Flight Schedule/resetHyperlink'))
-		WebUI.setText(findTestObject('Object Repository/Flight Schedule/inputOrigin'),VOrigin)
-		WebUI.setText(findTestObject('Object Repository/Flight Schedule/inputDestination'),VDestination)
+		WebUI.setText(findTestObject('Object Repository/Flight Schedule/inputOrigin'),origin)
+		WebUI.setText(findTestObject('Object Repository/Flight Schedule/inputDestination'),destination)
 		WebUI.click(findTestObject('Object Repository/Flight Schedule/buttonSearch'))
 		WebUI.verifyElementVisible(findTestObject('Object Repository/Flight Schedule/errorMessageDate'))
 	}
