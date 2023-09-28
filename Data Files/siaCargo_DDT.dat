@@ -5,13 +5,13 @@
    <tag></tag>
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
-   <csvSeperator>SEMICOLON</csvSeperator>
-   <dataFileGUID>c153cd30-c62f-4b84-b7fe-dedfc527a35e</dataFileGUID>
-   <dataSourceUrl>C:\Users\LENOVO\Documents\siacargo.csv</dataSourceUrl>
-   <driver>CSV</driver>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>a55af4c6-aee1-4246-96b5-75ec6165b656</dataFileGUID>
+   <dataSourceUrl>C:\Users\LENOVO\Documents\siacargo.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName></sheetName>
+   <sheetName>siacargo</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

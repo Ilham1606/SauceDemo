@@ -43,7 +43,6 @@ public class sdKeywords {
 
 	@Keyword
 	def login() {
-		//WebUI.openBrowser('https://www.saucedemo.com/v1/index.html')
 		WebUI.maximizeWindow()
 		WebUI.verifyElementVisible(findTestObject('Object Repository/login_SauceDemo/userName'))
 		if (username != 'none') {
@@ -73,6 +72,8 @@ public class sdKeywords {
 
 	@Keyword
 	def addToCart() {
+		WebUI.mouseOver(findTestObject('Object Repository/productsList_SauceDemo/catalog1'))
+		WebUI.delay(1)
 		WebUI.click(findTestObject('Object Repository/productsList_SauceDemo/catalog1'))
 		WebUI.click(findTestObject('Object Repository/productsList_SauceDemo/catalog2'))
 		WebUI.click(findTestObject('Object Repository/productsList_SauceDemo/catalog3'))
@@ -81,6 +82,7 @@ public class sdKeywords {
 
 	@Keyword
 	def inCart() {
+		WebUI.mouseOver(findTestObject('Object Repository/cartPage/cart_btnRemove'))
 		WebUI.click(findTestObject('Object Repository/cartPage/cart_btnRemove'))
 		WebUI.click(findTestObject('Object Repository/cartPage/cart_btnCheckout'))
 	}
@@ -102,6 +104,7 @@ public class sdKeywords {
 	def checkoutOverview() {
 		WebUI.click(findTestObject('Object Repository/checkoutPage/checkoutOverview_catalogDetail'))
 		WebUI.click(findTestObject('Object Repository/checkoutPage/checkoutOverview_btnBackDetail'))
+		WebUI.scrollToElement(findTestObject('Object Repository/checkoutPage/checkoutOverview_btnFinish'), 0)
 		WebUI.click(findTestObject('Object Repository/checkoutPage/checkoutOverview_btnFinish'))
 	}
 

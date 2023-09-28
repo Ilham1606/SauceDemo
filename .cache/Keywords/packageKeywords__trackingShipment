@@ -1,9 +1,14 @@
 {
-  "keywordFileContentHash": "EE0C824CC6786CCDC0AA81D951B1238E",
+  "keywordFileContentHash": "334913F0ADBDC85E9E2568C88373A8F6",
   "keywordClasses": [
     {
       "name": "packageKeywords.trackingShipment",
       "keywordMethods": [
+        {
+          "name": "tracking",
+          "parameters": [],
+          "javadoc": ""
+        },
         {
           "name": "flightSchedule",
           "parameters": [
@@ -33,7 +38,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "resetSchedule",
@@ -64,10 +70,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

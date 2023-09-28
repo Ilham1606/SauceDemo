@@ -24,7 +24,7 @@ import internal.GlobalVariable
 public class trackingShipment {
 
 	@Keyword
-	def trackingShipment() {
+	def tracking() {
 		WebUI.mouseOver(findTestObject('Object Repository/Track Shipment/elementE-Services'))
 		WebUI.click(findTestObject('Object Repository/Track Shipment/elementTracking'))
 		WebUI.verifyElementVisible(findTestObject('Object Repository/Track Shipment/p_You can search for a maximum of 10 AWB numbers'))

@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-TestData inputan = findTestData('Data Files/testdata')
+TestData inputan = findTestData('Data Files/siaCargo_DDT')
 
 origin = inputan.getValue('origin', 1)
 destination = inputan.getValue('destination', 1)
@@ -25,6 +25,8 @@ destination = inputan.getValue('destination', 1)
 WebUI.openBrowser('www.siacargo.com')
 
 WebUI.maximizeWindow()
+
+CustomKeywords.'packageKeywords.trackingShipment.tracking'()
 
 CustomKeywords.'packageKeywords.trackingShipment.flightSchedule'(origin, destination)
 
