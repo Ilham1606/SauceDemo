@@ -17,9 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+
+//Variables for login
+String testType = "P" //need data files to test this (excel data)
+String username = "standard_user"
+String password = "secret_sauce"
+String expWarningMsg = "" //need data files to test this (excel data)
+
+//Varialbles for checkout
+String firstName = "Ilham"
+String lastName = "Apriansyah"
+String zipCode = "11640"
+
+
+
 CustomKeywords.'sauceDemoKeywords.sdKeywords.openBrowser'()
 
-CustomKeywords.'sauceDemoKeywords.sdKeywords.login'()
+CustomKeywords.'sauceDemoKeywords.sdKeywords.login'(username, password)
 
 CustomKeywords.'sauceDemoKeywords.sdKeywords.filterContainer'()
 
@@ -27,7 +41,7 @@ CustomKeywords.'sauceDemoKeywords.sdKeywords.addToCart'()
 
 CustomKeywords.'sauceDemoKeywords.sdKeywords.inCart'()
 
-CustomKeywords.'sauceDemoKeywords.sdKeywords.checkout'()
+CustomKeywords.'sauceDemoKeywords.sdKeywords.checkout'(firstName, lastName, zipCode)
 
 CustomKeywords.'sauceDemoKeywords.sdKeywords.checkoutOverview'()
 
